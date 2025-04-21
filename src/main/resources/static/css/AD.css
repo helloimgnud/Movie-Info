@@ -1,0 +1,56 @@
+body {
+  background-color: #121212;
+  color: #fff;
+}
+
+#AD-item .nav-link {
+  background-color: #E50914;
+  color: white;
+  border-radius: 50px;
+  padding: 10px 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+#AD-item .nav-link:hover {
+  background-color: #B20710;
+  transform: scale(1.05);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+#actor-director-list .card {
+  background-color: #1f1f1f;
+  border: none;
+  border-radius: 8px;
+  color: #ccc;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+#actor-director-list .card img {
+  border-radius: 8px 8px 0 0;
+  height: 400px;
+  object-fit: cover;
+}
+
+#actor-director-list .card-title {
+  color: #fff;
+  margin-top: 10px;
+}
+
+#actor-director-list .card-text {
+  color: #aaa;
+  margin-top: 5px;
+  flex-grow: 1;
+}
+
+#actor-director-list .card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}

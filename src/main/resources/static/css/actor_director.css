@@ -1,0 +1,78 @@
+#AD-item .nav-link {
+  background-color: #E50914;
+  color: white;
+  border-radius: 50px; /* Rounded corners */
+  padding: 10px 20px; /* Add padding for better spacing */
+  font-weight: bold; /* Make the text bold for emphasis */
+  text-transform: uppercase; /* Capitalize text for a more modern look */
+  letter-spacing: 1px; /* Add spacing between letters for a sleek look */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Add hover effect to make it more interactive */
+#AD-item .nav-link:hover {
+  background-color: #B20710; /* Darker shade of red on hover */
+  transform: scale(1.05); /* Slight zoom effect on hover */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.filter-section .form-label {
+  color: #ccc;
+  margin-bottom: 5px;
+}
+
+.filter-section select,
+.filter-section input {
+  background-color: #2a2a2a;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.filter-section #sortOrderBtn {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  border-radius: 5px;
+}
+
+.filter-section button {
+  border-radius: 5px;
+}
+
+.filter-section {
+  background-color: #1f1f1f;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+/*-------------------------------------------------------------------------*/
+
+.list-section .card {
+  background-color: #1f1f1f;
+  border: none;
+  border-radius: 8px;
+  color: #ccc;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.list-section .card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+.list-section .card img {
+  border-radius: 8px 8px 0 0;
+}
+
+.list-section .card-title {
+  color: #fff;
+}
+
+.list-section .card-text {
+  color: #aaa;
+}

@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.fullscreen {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color:#c6c0e4;
+    background:linear-gradient(to right, #e2e2e2, #c6c0e4);
+}
+
+.Parent {
+    padding: 5vh 10vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.img {
+    width: 50%;
+    background: url("/img/logo.png");
+    background-size:100% 100%;
+    overflow:hidden;
+    text-align: right;
+    color: green;
+    height : 90vh;
+    margin-right:3vh;
+    border-radius:25px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+}
+
+.login {
+    font-size:17px;
+    position: relative;
+    width: 50%;
+    background-color:white;
+    color: black;
+    height : 90vh;
+    border-radius:25px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    overflow:hidden;
+}
+.login h1{
+    margin:20px 0 5px;
+}
+.login span{
+    margin:0px 0 20px;
+}
+.login form{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    height: 100%;
+}
+
+#input_with_icon{
+    position:relative;
+    width:50%;
+}
+
+.login input{
+    background-color: #eee;
+    border: none;
+    outline: none;
+    padding:13px 50px;
+    width:100%;
+    margin: 8px 0px;
+    border-radius: 8px;
+    font-size:17px;
+}
+
+
+
+#input_with_icon i{
+    top: 17px;
+    left: 15px;
+    position:absolute;
+    font-size: 1.8em;
+}
+
+.login button{
+    background-color: #512da8;
+    color: #fff;
+    font-size: 14px;
+    padding:10px 50px;
+    margin: 8px 0px;
+    width:50%;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.footer {
+    text-align:center;
+    position: absolute;
+    width: 100%;
+    bottom:10%;
+}
+
+.footer2 span{
+    position:absolute;
+    margin:0 0;
+    bottom:5px;
+    right:9px;
+}
+
+.footer2 i{
+    position: absolute;
+    font-size:0.8em;
+    bottom:8px;
+    right:100px;
+}
+
+.login a:link, .login a:visited{
+    text-decoration:none;
+    color:#512da8;
+}
+.login a:hover{
+    text-decoration:underline;
+}
+.login a:active{
+    text-decoration:underline;
+    color:#1b0f38;
+}

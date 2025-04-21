@@ -1,0 +1,18 @@
+#home-item .nav-link {
+  background-color: #E50914;
+  color: white;
+  border-radius: 50px; /* Rounded corners */
+  padding: 10px 20px; /* Add padding for better spacing */
+  font-weight: bold; /* Make the text bold for emphasis */
+  text-transform: uppercase; /* Capitalize text for a more modern look */
+  letter-spacing: 1px; /* Add spacing between letters for a sleek look */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Add hover effect to make it more interactive */
+#home-item .nav-link:hover {
+  background-color: #B20710; /* Darker shade of red on hover */
+  transform: scale(1.05); /* Slight zoom effect on hover */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}

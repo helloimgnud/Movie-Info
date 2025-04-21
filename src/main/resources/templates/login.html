@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8" />
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name = "viewport" content= "width = device_width initial-scale = 1.0">
+  <link rel="stylesheet" type="text/css" href="/css/styleLogin.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Đăng nhập</title>
+</head>
+<body>
+  <div class ="fullscreen">
+    <div class="Parent">
+        <div class="img">
+        </div>
+        <div class="login">
+            <form id ="userInfo" action ="/login" method = "post" >
+              <h1>WELCOME BACK !</h1>
+              <span>Login to continue</span>
+                <div id="input_with_icon">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                    <input type="text" placeholder="Username" id="usr" name="username"></input>
+                </div>
+                <div id="input_with_icon">
+                    <i class="fa fa-lock" aria-hidden="true"></i>
+                    <input id="pwd" type="password" placeholder="Password" name="password"></input>
+                </div>
+                <button type ="submit">Login</button>
+            </form>
+        </div>
+    </div>
+  </div>
+</body>
+</html>

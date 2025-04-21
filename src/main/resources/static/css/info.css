@@ -1,0 +1,33 @@
+.movie-list .card {
+  background-color: #1f1f1f;
+  border: none;
+  border-radius: 8px;
+  color: #ccc;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 550px; /* Set a fixed height for all cards */
+  display: flex;
+  flex-direction: column; /* Ensure content is stacked vertically */
+}
+
+.movie-list .card img {
+  border-radius: 8px 8px 0 0;
+  height: 400px; /* Set a fixed height for images */
+  object-fit: cover; /* Ensure image covers the space without distortion */
+}
+
+.movie-list .card-title {
+  color: #fff;
+  margin-top: 10px;
+}
+ 
+.movie-list .card-text {
+  color: #aaa;
+  margin-top: 5px;
+  flex-grow: 1; /* Allow text content to take up remaining space */
+}
+
+.movie-list .card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}

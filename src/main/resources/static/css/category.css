@@ -1,0 +1,60 @@
+#categories-item .nav-link {
+  background-color: #E50914;
+  color: white;
+  border-radius: 50px; /* Rounded corners */
+  padding: 10px 20px; /* Add padding for better spacing */
+  font-weight: bold; /* Make the text bold for emphasis */
+  text-transform: uppercase; /* Capitalize text for a more modern look */
+  letter-spacing: 1px; /* Add spacing between letters for a sleek look */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Add hover effect to make it more interactive */
+#categories-item .nav-link:hover {
+  background-color: #B20710; /* Darker shade of red on hover */
+  transform: scale(1.05); /* Slight zoom effect on hover */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+
+.categories-section .card {
+  background-color: #1f1f1f;
+  border: none;
+  border-radius: 8px;
+  color: #ccc;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-height: 280px; /* Set a fixed height for all cards */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Ensures proper spacing between elements */
+  align-items: center;
+  padding: 1rem; /* Add padding for spacing inside the card */
+}
+
+.categories-section .card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  cursor:pointer;
+}
+
+.categories-section .card-title {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.categories-section .card-text {
+  color: #aaa;
+  font-size: 0.9rem;
+  text-align: center;
+  margin: 0;
+  flex-grow: 1; /* Ensures the text stretches to fill available space */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
