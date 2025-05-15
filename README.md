@@ -1,1 +1,1 @@
-Simple website provide information about movies, actors, directors and trailer
+Simple website provide information about movies, actors, directors and trailers
